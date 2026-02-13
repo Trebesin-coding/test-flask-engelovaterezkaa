@@ -4,17 +4,21 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+
+        <link rel="stylesheet" href="static/style.css">
     </head>
     <body>
         <form method="GET">
-            <h1>Recenze</h1>
-            <label for="login">Uživatel: </label>
-            <input type="text" placeholder="Jméno">
+            <h1 class="nadpis">Recenze</h1>
+
+            <label for="name">Uživatel: </label>
+            <input type="text" id="name" placeholder="Jméno"> <br> 
+
             <label for="recenze">Recenze: </label>
-            <input
-                type="text"
-                placeholder="Napiš recenzi" />
-            <p>Recenze uživatele ... </p> 
+            <input type="text" id="recenze" placeholder="Napiš recenzi" />
+
+            <button>Odeslat recenzi</button>
+            <p>Recenze uživatele </p> 
             <!-- Místo tří teček by se mělo doplnit recenzi, kterou odeslal uživatel ve formuláři -->
     </body>
 </html>
