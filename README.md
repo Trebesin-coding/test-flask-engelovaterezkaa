@@ -13,3 +13,24 @@
 ## JSON
 
 8.  data z formuláře ulož také do JSON recenze.json ve složce data
+
+### Hodnocení
+
+✅
+
+✅
+
+🚩chybí uzavření formuláře
+
+🚩je potřeba dát data pod podmínku, že existuje name a recenze, chybí odeslání dat zpět do html
+
+✅
+
+❌ chybí jinja v html
+
+🚩proč se kontroluje, že je main?
+
+🚩špatná cesta k .json
+
+
+## Známka: 2
